@@ -1,0 +1,8 @@
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.MVC\obj\Debug\net5.0\MCV.Test.MVC.csproj.AssemblyReference.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.MVC\obj\Debug\net5.0\MCV.Test.MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.MVC\obj\Debug\net5.0\MCV.Test.MVC.AssemblyInfoInputs.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.MVC\obj\Debug\net5.0\MCV.Test.MVC.AssemblyInfo.cs
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.MVC\obj\Debug\net5.0\MCV.Test.MVC.csproj.CoreCompileInputs.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.MVC\obj\Debug\net5.0\MCV.Test.MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.MVC\obj\Debug\net5.0\MCV.Test.MVC.RazorAssemblyInfo.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.MVC\obj\Debug\net5.0\MCV.Test.MVC.RazorAssemblyInfo.cs

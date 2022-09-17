@@ -1,0 +1,212 @@
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.csproj.AssemblyReference.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.AssemblyInfoInputs.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.AssemblyInfo.cs
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.csproj.CoreCompileInputs.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\appsettings.json
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.exe
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.deps.json
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.runtimeconfig.json
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.runtimeconfig.dev.json
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.pdb
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\scopedcss\bundle\MCV.Test.API.styles.css
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\staticwebassets\MCV.Test.API.StaticWebAssets.Manifest.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.RazorTargetAssemblyInfo.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.csproj.CopyComplete
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\refint\MCV.Test.API.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.pdb
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.genruntimeconfig.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\ref\MCV.Test.API.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API (2)\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\appsettings.json
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.exe
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.deps.json
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.runtimeconfig.json
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.runtimeconfig.dev.json
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.pdb
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.csproj.AssemblyReference.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.AssemblyInfoInputs.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.AssemblyInfo.cs
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.csproj.CoreCompileInputs.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\scopedcss\bundle\MCV.Test.API.styles.css
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\staticwebassets\MCV.Test.API.StaticWebAssets.Manifest.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.RazorTargetAssemblyInfo.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.csproj.CopyComplete
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\refint\MCV.Test.API.dll
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.pdb
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.genruntimeconfig.cache
+C:\Users\MoShaban\Downloads\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\ref\MCV.Test.API.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\appsettings.json
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.exe
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.deps.json
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.runtimeconfig.json
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.runtimeconfig.dev.json
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.pdb
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.csproj.AssemblyReference.cache
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.AssemblyInfoInputs.cache
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.AssemblyInfo.cs
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.csproj.CoreCompileInputs.cache
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\scopedcss\bundle\MCV.Test.API.styles.css
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\staticwebassets\MCV.Test.API.StaticWebAssets.Manifest.cache
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.RazorTargetAssemblyInfo.cache
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.csproj.CopyComplete
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\refint\MCV.Test.API.dll
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.pdb
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.genruntimeconfig.cache
+C:\Users\MoShaban\Desktop\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\ref\MCV.Test.API.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\appsettings.json
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.exe
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.deps.json
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.runtimeconfig.json
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.runtimeconfig.dev.json
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\MCV.Test.API.pdb
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.csproj.AssemblyReference.cache
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.AssemblyInfoInputs.cache
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.AssemblyInfo.cs
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.csproj.CoreCompileInputs.cache
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\scopedcss\bundle\MCV.Test.API.styles.css
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\staticwebassets\MCV.Test.API.StaticWebAssets.Manifest.cache
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.RazorTargetAssemblyInfo.cache
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.csproj.CopyComplete
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\refint\MCV.Test.API.dll
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.pdb
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\MCV.Test.API.genruntimeconfig.cache
+C:\Users\MoShaban\Desktop\EGID_Task_Mohamed_Shaban_Gad\ManageDepartmentsEmployees\MCV.Test.API\MCV.Test.API\obj\Debug\net5.0\ref\MCV.Test.API.dll

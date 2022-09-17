@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Employees Data</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/site.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <button class="previous" onclick="history.back()">Back</button>
+
+        <h1>Employees Data</h1>
+
+        <form>
+            <div class="form-group">
+                <label>Name:</label>
+                <input type="text" name="name" class="form-control" placeholder="Mohamed..."  required="">
+            </div>
+
+            <div class="form-group">
+                <label>Title:</label>
+                <input type="text" name="title" class="form-control" placeholder="Enginner..."  required="">
+            </div>
+            <div class="form-group">
+                <select name="department" class="form-control" id="departments"></select>
+            </div>
+            <div class="form-group">
+                <label>Birthdate:</label>
+                <input type="date" name="birthdate" min="1950-01-01" class="form-control" required="">
+            </div>
+            <div class="form-group">
+                <label>Hiring Date:</label>
+                <input type="date" name="hiringdate" class="form-control" min="2002-01-01"  required="">
+            </div>
+            <button type="submit" class="btn btn-success save-btn">Save</button>
+
+        </form>
+        <br />
+        <table class="table table-bordered data-table">
+            <thead>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Title</th>
+                <th>Department Name</th>
+                <th>Birthdate</th>
+                <th>Hiring Date</th>
+                <th width="200px">Action</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+    </div>
+
+    <script type="text/javascript">
+        let departmentId = 0;
+
+        const apiURL = "https://localhost:7089/api";
+        $(document).ready(function () {
+            $.ajax({
+                type: 'GET',
+                url: `${apiURL}/employee/list`,
+                success: function (data) {
+                    console.log(data.$values);
+                    $(data.$values).each(
+                        function () {
+                            $(".data-table tbody").
+                                append("<tr data-id='" + this.id  + "' data-name='" + this.name + "' data-title='" + this.title +  "' data-department='" + this.department.name +"' data-birthdate='" + formatDate(this.birthDate) + "' data-hiringdate='" + formatDate(this.hiringDate) + "'>" +
+                                    "<td>" + this.id
+                                    + "</td><td>" + this.name
+                                    + "</td><td>" + this.title
+                                    + "</td><td>" + this.department.name
+                                    + "</td><td>" + formatDate(this.birthDate)
+                                    + "</td><td>" + formatDate(this.hiringDate) +
+                                    "</td><td><button class='btn btn-info btn-xs btn-edit'>Edit</button><button class='btn btn-danger btn-xs btn-delete'>Delete</button></td></tr>");
+                        });
+                }
+            });
+        });
+        $.ajax({
+            type: "GET",
+            url: `${apiURL}/department/list`,
+            success: function (data) {
+                data=data.$values;
+                var s = '<option value="-1">Please Select a Department</option>';
+                for (var i = 0; i < data.length; i++) {
+                    s += '<option value="' + data[i].id + '">' + data[i].name + '</option>';
+                }
+                $("#departments").html(s);
+            }
+        });
+        $("form").submit(function (e) {
+            e.preventDefault();
+            if (departmentId == 0) {
+                alert("please select department");
+                return;
+            }
+            var name = $("input[name='name']").val();
+            var title = $("input[name='title']").val();
+            var birthdate = $("input[name='birthdate']").val();
+            var hiringdate = $("input[name='hiringdate']").val();
+            if (birthdate == "" && hiringdate == "") {
+                alert("Please enter valid Hiring Date and BirthDate");
+                return;
+            }
+            if (birthdate == "") {
+                alert("Please enter valid Birth Date");
+                return;
+            }
+            if (hiringdate == "") {
+                alert("Please enter valid Hiring Date");
+                return;
+            }
+            
+            var dataoBJECT = {
+                "name": name,
+                "birthDate": birthdate,
+                "title": title,
+                "hiringDate": hiringdate,
+                "departmentId": departmentId
+            };
+            var json = JSON.stringify(dataoBJECT);
+            $.ajax({
+                type: "POST",
+                url: `${apiURL}/employee`,
+                data: json,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    alert("Employee added successfully!");
+                    location.reload();
+                }, //End of AJAX Success function
+                failure: function (data) {
+                    alert("Failed to add");
+                    location.reload();
+                }, //End of AJAX failure function
+                error: function (data) {
+                } //End of AJAX error function
+
+            });
+        });
+        $("#departments").change(function () {
+            departmentId = Number($(this).children(":selected").attr("value"));
+        });
+        $('select#departments').attr('departments', -1);
+        $("body").on("click", ".btn-delete", function () {
+            let item = $(this).parents("tr");
+            let selectedId = Number(item[0].dataset.id);
+
+            $.ajax({
+                url: `${apiURL}/employee/${selectedId}`,
+                type: 'DELETE',
+                success: function (data) {
+                    location.reload();
+                },
+                failure: function (data) {
+                }, //End of AJAX failure function
+                error: function (data) {
+                } //End of AJAX error function
+
+            });
+        });
+        function formatDate(date) {
+            var d = new Date(date);
+            month = '' + (d.getMonth() + 1);
+            day = '' + d.getDate();
+            year = d.getFullYear();
+
+            if (month.length < 2)
+                month = '0' + month;
+            if (day.length < 2)
+                day = '0' + day;
+            return [year, day, month].join('-');
+        }
+        $("body").on("click", ".btn-edit", function () {
+            var name = $(this).parents("tr").attr('data-name');
+            var title = $(this).parents("tr").attr('data-title');
+            var birthdate = $(this).parents("tr").attr('data-birthdate');
+            birthdate = formatDate(birthdate);
+            var hiringdate = $(this).parents("tr").attr('data-hiringdate');
+            hiringdate = formatDate(hiringdate);
+            var departmentName = $(this).parents("tr").attr('data-department');
+
+            $.ajax({
+            type: "GET",
+            url: `${apiURL}/department/list`,
+            success: function (data) {
+                var s = '<option value="-1">Please Select a Department</option>';
+                for (var i = 0; i < data.length; i++) {
+                    s += '<option value="' + data[i].id + '">' + data[i].name + '</option>';
+                }
+                console.log(s);
+            }
+        });
+            //birt==min="1950-01-01" max="2002-01-01"
+            //hiring=min="2002-01-01" max="2020-01-01"
+            $(this).parents("tr").find("td:eq(1)").html('<input name="edit_name" value="' + name + '" required="">');
+            $(this).parents("tr").find("td:eq(2)").html('<input name="edit_title" value="' + title + '" required="">');
+            $(this).parents("tr").find("td:eq(4)").html(`<input type="date" name="edit_birthdate" value=${birthdate}>`);
+            $(this).parents("tr").find("td:eq(5)").html(`<input type="date" name="edit_hiringdate" value=${hiringdate}>`);
+
+            $(this).parents("tr").find("td:eq(6)").prepend("<button class='btn btn-info btn-xs btn-update'>Update</button><button class='btn btn-warning btn-xs btn-cancel'>Cancel</button>")
+            $(this).hide();
+        });
+
+        $("body").on("click", ".btn-cancel", function () {
+            var name = $(this).parents("tr").attr('data-name');
+            var title = $(this).parents("tr").attr('data-title');
+            var birthdate = $(this).parents("tr").attr('data-birthdate');
+            var hiringdate = $(this).parents("tr").attr('data-hiringdate');
+
+            $(this).parents("tr").find("td:eq(1)").text(name);
+            $(this).parents("tr").find("td:eq(2)").text(title);
+            $(this).parents("tr").find("td:eq(4)").text(birthdate);
+            $(this).parents("tr").find("td:eq(5)").text(hiringdate);
+            $(this).parents("tr").find(".btn-edit").show();
+            $(this).parents("tr").find(".btn-update").remove();
+            $(this).parents("tr").find(".btn-cancel").remove();
+        });
+
+        $("body").on("click", ".btn-update", function () {
+            var id = Number($(this).parents("tr").attr('data-id'));
+            var name = $(this).parents("tr").find("input[name='edit_name']").val();
+            var title = $(this).parents("tr").find("input[name='edit_title']").val();
+            var birthdate = $(this).parents("tr").find("input[name='edit_birthdate']").val();
+            var hiringdate = $(this).parents("tr").find("input[name='edit_hiringdate']").val();
+            if (birthdate == "" || hiringdate == "") {
+                if (hiringdate == "" && birthdate == "") {
+                    alert("Please enter valid Hiring Date and Birth Date");
+                    return;
+                }
+                else if (hiringdate == "") {
+                    alert("Please enter valid Hiring Date");
+                    return;
+                }
+                else if (birthdate == "") {
+                    alert("Please enter valid Birth Date");
+                    return;
+                }
+            }
+
+            var dataObj = {
+                "id": id,
+                "name": name,
+                "birthDate": birthdate,
+                "title": title,
+                "hiringDate": hiringdate,
+                "departmentId":departmentId
+            };
+            var json = JSON.stringify(dataObj);
+            $.ajax({
+                url: `${apiURL}/employee/${id}`,
+                type: 'PUT',
+                data: json,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    location.reload();
+                },
+                failure: function (data) {
+                }, //End of AJAX failure function
+                error: function (data) {
+                } //End of AJAX error function
+            });
+            // $(this).parents("tr").find("td:eq(1)").text(name);
+            // $(this).parents("tr").find("td:eq(2)").text(title);
+            // $(this).parents("tr").find("td:eq(4)").text(birthdate);
+            // $(this).parents("tr").find("td:eq(5)").text(hiringdate);
+            // $(this).parents("tr").find(".btn-edit").show();
+            // $(this).parents("tr").find(".btn-cancel").remove();
+            // $(this).parents("tr").find(".btn-update").remove();
+        });       
+        
+    </script>
+
+</body>
+</html>

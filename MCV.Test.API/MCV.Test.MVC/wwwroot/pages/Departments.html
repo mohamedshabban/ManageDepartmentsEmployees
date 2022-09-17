@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Departments Data</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/site.css">
+</head>
+<body>
+
+    <div class="container">
+        <button class="previous" onclick="history.back()">Back</button>
+
+        <h1>Departments Data</h1>
+
+        <form>
+            <div class="form-group">
+                <label>Name:</label>
+                <input type="text" name="name" class="form-control" placeholder="Information Sytsem..." required="">
+            </div>
+            <button type="submit" class="btn btn-success save-btn">Save</button>
+
+        </form>
+        <br />
+        <table class="table table-bordered data-table">
+            <thead>
+                <th>Id</th>
+                <th>Name</th>
+                <th width="200px">Action</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <button class="previous" onclick="history.back()">Back</button>
+
+    </div>
+
+    <script type="text/javascript">
+        let departmentId = 0;
+
+        const apiURL = "https://localhost:7089/api";
+        $(document).ready(function (e) {
+            $.ajax({
+                type: 'GET',
+                url: `${apiURL}/department/list`,
+                success: function (data) {
+                    console.log(data);
+                    data=data.$values;
+                    $(data).each(
+                        function () {
+                            $(".data-table tbody").
+                                append("<tr data-id='" + this.id + "' data-name='" + this.name + "'>" +
+                                    "<td>" + this.id
+                                    + "</td><td>" + this.name
+                                    +"</td><td><button class='btn btn-info btn-xs btn-edit'>Edit</button><button class='btn btn-danger btn-xs btn-delete'>Delete</button></td></tr>");
+                        });
+                }
+            });
+        });
+        
+        $("form").submit(function (e) {
+            e.preventDefault();
+            var name = $("input[name='name']").val();
+
+            var dataoBJECT = {
+                "id":0,
+                "name": name,
+            };
+            var json = JSON.stringify(dataoBJECT);
+            $.ajax({
+                type: "POST",
+                url: `${apiURL}/department`,
+                cache    : false,
+                data: json,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    alert("Department added successfully!");
+                    location.reload();
+                }, //End of AJAX Success function
+                failure: function (response) {
+                }, //End of AJAX failure function
+                error: function (response) {
+                } //End of AJAX error function
+
+            });
+        });
+        
+        $("body").on("click", ".btn-delete", function () {
+            let item = $(this).parents("tr");
+            let selectedId = Number(item[0].dataset.id);
+            $.ajax({
+                url: `${apiURL}/department/${selectedId}`,
+                type: 'DELETE',
+                success: function (data) {
+                    location.reload();
+                },
+                failure: function (data) {
+                }, //End of AJAX failure function
+                error: function (data) {
+                } //End of AJAX error function
+
+            });
+        });
+        $("body").on("click", ".btn-edit", function () {
+            var name = $(this).parents("tr").attr('data-name');           
+            $(this).parents("tr").find("td:eq(1)").html('<input name="edit_name" value="' + name + '" required="">');
+            $(this).parents("tr").find("td:eq(2)").prepend("<button class='btn btn-info btn-xs btn-update'>Update</button><button class='btn btn-warning btn-xs btn-cancel'>Cancel</button>")
+            $(this).hide();
+        });
+
+        $("body").on("click", ".btn-cancel", function () {
+            var name = $(this).parents("tr").attr('data-name');
+
+            $(this).parents("tr").find("td:eq(1)").text(name);
+            $(this).parents("tr").find(".btn-edit").show();
+            $(this).parents("tr").find(".btn-update").remove();
+            $(this).parents("tr").find(".btn-cancel").remove();
+        });
+
+        $("body").on("click", ".btn-update", function () {
+            var id = Number($(this).parents("tr").attr('data-id'));
+            var name = $(this).parents("tr").find("input[name='edit_name']").val();
+            
+            if (name == "") {
+                    alert("Please enter Department name");
+                    return;
+            }
+            var dataObj = {
+                "id": id,
+                "name": name,               
+            };
+            var json = JSON.stringify(dataObj);
+            $.ajax({
+                url: `${apiURL}/department/${id}`,
+                type: 'PUT',
+                data: json,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                },
+                failure: function (data) {
+                }, //End of AJAX failure function
+                error: function (data) {
+                } //End of AJAX error function
+            });
+            $(this).parents("tr").find("td:eq(1)").text(name);          
+            $(this).parents("tr").find(".btn-edit").show();
+            $(this).parents("tr").find(".btn-cancel").remove();
+            $(this).parents("tr").find(".btn-update").remove();
+        });
+
+    </script>
+
+</body>
+</html>
